@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import "./App.css";
+import Zoom from "react-reveal/Zoom";
+import Font, { Text } from "react-font";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="flex justify-center mt-10">
+        <Zoom duration={3000} top>
+          <Font family="Monoton">
+            <h1 className="text-white text-3xl">MONIESH &nbsp; RAVICHANDRAN</h1>
+          </Font>
+        </Zoom>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
