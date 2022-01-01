@@ -7,7 +7,7 @@ const App = () => {
       <div className="flex justify-center mt-10">
         <Zoom duration={3000} top>
           <Font family="Monoton">
-            <h1 className="text-white text-3xl">MONjIESH &nbsp; RAVICHANDRAN</h1>
+            <h1 className="text-white name">MONIESH &nbsp; &nbsp; RAVICHANDRAN</h1>
           </Font>
         </Zoom>
       </div>
