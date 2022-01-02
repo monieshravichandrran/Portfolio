@@ -16,6 +16,14 @@ import blockchain from "./images/blockchain.gif";
 import Cplus from "./images/cplus.gif";
 import java from "./images/java.gif";
 import Roll from "react-reveal/Roll";
+import github from "./images/github.png";
+import gmail from "./images/gmail.png";
+import insta from "./images/insta.jpg";
+import linkedin from "./images/linkedin.png";
+import twitter from "./images/twitter.png";
+import codechef from "./images/codechef.png";
+import codeforces from "./images/codeforces.jpg";
+import Particles from "./Particle";
 const App = () => {
   return (
     <>
@@ -212,6 +220,59 @@ const App = () => {
               </Roll>
             </div>
           </Font>
+        </div>
+      </div>
+      <div className="menu">
+        <div>
+          <Slide left duration={2000}>
+            <Font family="Kufam" italic={true}>
+              <h1 className="text-green-500 about">Contact Me</h1>
+              <div>
+                <ul className="flex justify-center justify-between max-w-3xl">
+                  <li className="float-left">
+                    <a href="https://github.com/monieshravichandrran" target="_blank">
+                      <img className="social" src={github} alt="github" />
+                    </a>
+                  </li>
+                  <li className="float-left">
+                    <a href="www.linkedin.com/in/moniesh" target="_blank">
+                      <img className="social" src={linkedin} alt="linkedin" />
+                    </a>
+                  </li>
+                  <li className="float-left">
+                    <a href="https://www.codechef.com/users/abrahambenjami" target="_blank">
+                      <img className="social" src={codechef} alt="coddechef" />
+                    </a>
+                  </li>
+                  <li className="float-left" target="_blank">
+                    <a href="https://codeforces.com/profile/bianmaqui" target="_blank">
+                      <img
+                        className="social"
+                        src={codeforces}
+                        alt="codeforces"
+                      />
+                    </a>
+                  </li>
+                  <li className="float-left">
+                    <a href="" target="_blank">
+                      <img className="social" src={gmail} alt="gmail" />
+                    </a>
+                  </li>
+                  <li className="float-left">
+                    <a href="" target="_blank">
+                      <img className="social" src={insta} alt="insta" />
+                    </a>
+                  </li>
+                  <li className="float-left">
+                    <a href="" target="_blank">
+                      <img src={twitter} alt="twitter" className="social" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </Font>
+            <Font family="Roboto"></Font>
+          </Slide>
         </div>
       </div>
       <br />
