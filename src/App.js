@@ -54,7 +54,7 @@ const App = () => {
       <div className="flex justify-center mt-10">
         <Zoom duration={2000} top>
           <Font family="Monoton" italic={false}>
-            <h1 className="text-red-200 name">
+            <h1 className="text-white name">
               MONIESH &nbsp; &nbsp; RAVICHANDRAN
             </h1>
           </Font>
@@ -72,7 +72,7 @@ const App = () => {
               <h1 className="text-green-500 about">About Me</h1>
             </Font>
             <Font family="Roboto">
-              <p className="text-red-200 para">
+              <p className="text-white para">
                 Hi this is Moniesh Ravichandran. Welcome to my page!!! I was
                 born and brought up at Chennai. I completed my schooling at DAV
                 Senior Secondary School. I am a high acheiving Computer Science
@@ -94,7 +94,7 @@ const App = () => {
               <h1 className="text-green-500 about">Education</h1>
             </Font>
             <Font family="Roboto">
-              <p className="text-red-200 para">
+              <p className="text-white para">
                 Schooling &nbsp; : &nbsp; DAV Senior Secondary School Moggepair.
                 Chennai Completed Grade 10 With a 10 CGPA and 12th with a 94%.
                 Was a member of School Razmataz Culturals Organization
@@ -117,7 +117,7 @@ const App = () => {
             </Font>
             <Font family="Roboto">
               <ul>
-                <li className="text-red-200 para">
+                <li className="text-white para">
                   Code Unity (Nov 2021 - Present) &nbsp; : &nbsp; Front End
                   React Native Developer at Code Unity. Worked in building an
                   App for State Crime Records Bureau (SCRB) for the TN State
@@ -139,7 +139,7 @@ const App = () => {
               <h1 className="text-green-500 about">Skills</h1>
             </Font>
             <Font family="Roboto">
-              <h1 className="text-red-200 para mt-7">
+              <h1 className="text-white para mt-7">
                 Domains: Web, App & Blockchain Development
               </h1>
             </Font>
@@ -148,13 +148,13 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each1 each">
-                  <h1 className="text-red-200  para mt-10">React JS</h1>
+                  <h1 className="text-white  para mt-10">React JS</h1>
                   <img src={reactjs} alt="React" className="skills mt-5" />
                 </div>
               </Roll>
               <Roll duration={2000}>
                 <div>
-                  <h1 className="text-red-200 mt-10 para">React Native</h1>
+                  <h1 className="text-white mt-10 para">React Native</h1>
                   <img
                     src={reactnative}
                     alt="React Native"
@@ -166,7 +166,7 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each1 each">
-                  <p className="text-red-200 mt-10">Node JS</p>
+                  <p className="text-white mt-10">Node JS</p>
                   <p className="text-white para mt-5">
                     <img src={nodejs} alt="NodeJS" className="skills mt-5" />
                   </p>
@@ -174,7 +174,7 @@ const App = () => {
               </Roll>
               <Roll duration={2000}>
                 <div className="each">
-                  <p className="text-red-200 mt-10">HTML CSS JS</p>
+                  <p className="text-white mt-10">HTML CSS JS</p>
                   <p className="text-white para mt-5">
                     <img
                       src={htmlcssjs}
@@ -188,7 +188,7 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each1 each">
-                  <p className="text-red-200 mt-10">SQL</p>
+                  <p className="text-white mt-10">SQL</p>
                   <p className="text-white para mt-5">
                     <img src={sql} alt="SQL" className="skills mt-5" />
                   </p>
@@ -196,7 +196,7 @@ const App = () => {
               </Roll>
               <Roll duration={2000}>
                 <div className="each">
-                  <p className="text-red-200 mt-10">NoSQL</p>
+                  <p className="text-white mt-10">NoSQL</p>
                   <p className="text-white para mt-5">
                     <img src={mongoDB} alt="NoSQL" className="skills mt-5" />
                   </p>
@@ -206,7 +206,7 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each each1">
-                  <p className="text-red-200 mt-10">Phyton</p>
+                  <p className="text-white mt-10">Phyton</p>
                   <p className="text-white para mt-5">
                     <img src={python} alt="python" className="skills mt-5" />
                   </p>
@@ -214,7 +214,7 @@ const App = () => {
               </Roll>
               <Roll duration={2000}>
                 <div className="each">
-                  <p className="text-red-200 mt-10">Blockchain</p>
+                  <p className="text-white mt-10">Blockchain</p>
                   <p className="text-white para mt-5">
                     <img
                       src={blockchain}
@@ -228,7 +228,7 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each1 each">
-                  <p className="text-red-200 mt-10">C++</p>
+                  <p className="text-white mt-10">C++</p>
                   <p className="text-white para mt-5">
                     <img src={Cplus} alt="C++" className="skills mt-5" />
                   </p>
@@ -236,7 +236,7 @@ const App = () => {
               </Roll>
               <Roll duration={2000}>
                 <div className="each">
-                  <p className="text-red-200 mt-10">Java</p>
+                  <p className="text-white mt-10">Java</p>
                   <p className="text-white para mt-5">
                     <img src={java} alt="Java" className="skills mt-5" />
                   </p>
