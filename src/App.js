@@ -17,20 +17,44 @@ import Cplus from "./images/cplus.gif";
 import java from "./images/java.gif";
 import Roll from "react-reveal/Roll";
 import github from "./images/github.png";
-import gmail from "./images/gmail.png";
 import insta from "./images/insta.jpg";
 import linkedin from "./images/linkedin.png";
 import twitter from "./images/twitter.png";
 import codechef from "./images/codechef.png";
 import codeforces from "./images/codeforces.jpg";
-import Particles from "./Particle";
+import ParticleAnimation from "react-particle-animation";
 const App = () => {
   return (
     <>
+      <ParticleAnimation
+        numParticles={500}
+        style={{
+          position: "absolute",
+          width: "100%",
+          height: "600%",
+        }}
+        background={{
+          r: 0,
+          g: 0,
+          b: 0,
+          a: 0.1
+        }}
+        color={{
+          r: 255,
+          g: 55,
+          b: 55,
+          a: 100
+        }}
+        lineWidth={0}
+        particleSpeed={1}
+        particleRadius={1}
+        interactive={false}
+      />
+      <div className="bgshade">
       <div className="flex justify-center mt-10">
         <Zoom duration={2000} top>
           <Font family="Monoton" italic={false}>
-            <h1 className="text-white name">
+            <h1 className="text-red-200 name">
               MONIESH &nbsp; &nbsp; RAVICHANDRAN
             </h1>
           </Font>
@@ -48,7 +72,7 @@ const App = () => {
               <h1 className="text-green-500 about">About Me</h1>
             </Font>
             <Font family="Roboto">
-              <p className="text-white para">
+              <p className="text-red-200 para">
                 Hi this is Moniesh Ravichandran. Welcome to my page!!! I was
                 born and brought up at Chennai. I completed my schooling at DAV
                 Senior Secondary School. I am a high acheiving Computer Science
@@ -70,7 +94,7 @@ const App = () => {
               <h1 className="text-green-500 about">Education</h1>
             </Font>
             <Font family="Roboto">
-              <p className="text-white para">
+              <p className="text-red-200 para">
                 Schooling &nbsp; : &nbsp; DAV Senior Secondary School Moggepair.
                 Chennai Completed Grade 10 With a 10 CGPA and 12th with a 94%.
                 Was a member of School Razmataz Culturals Organization
@@ -93,7 +117,7 @@ const App = () => {
             </Font>
             <Font family="Roboto">
               <ul>
-                <li className="text-white para">
+                <li className="text-red-200 para">
                   Code Unity (Nov 2021 - Present) &nbsp; : &nbsp; Front End
                   React Native Developer at Code Unity. Worked in building an
                   App for State Crime Records Bureau (SCRB) for the TN State
@@ -115,7 +139,7 @@ const App = () => {
               <h1 className="text-green-500 about">Skills</h1>
             </Font>
             <Font family="Roboto">
-              <h1 className="text-white para mt-7">
+              <h1 className="text-red-200 para mt-7">
                 Domains: Web, App & Blockchain Development
               </h1>
             </Font>
@@ -124,13 +148,13 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each1 each">
-                  <h1 className="text-white  para mt-10">1) React JS</h1>
+                  <h1 className="text-red-200  para mt-10">React JS</h1>
                   <img src={reactjs} alt="React" className="skills mt-5" />
                 </div>
               </Roll>
               <Roll duration={2000}>
                 <div>
-                  <h1 className="text-white mt-10 para">2) React Native</h1>
+                  <h1 className="text-red-200 mt-10 para">React Native</h1>
                   <img
                     src={reactnative}
                     alt="React Native"
@@ -142,7 +166,7 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each1 each">
-                  <p className="text-white mt-10">3) Node JS</p>
+                  <p className="text-red-200 mt-10">Node JS</p>
                   <p className="text-white para mt-5">
                     <img src={nodejs} alt="NodeJS" className="skills mt-5" />
                   </p>
@@ -150,7 +174,7 @@ const App = () => {
               </Roll>
               <Roll duration={2000}>
                 <div className="each">
-                  <p className="text-white mt-10">4) HTML CSS JS</p>
+                  <p className="text-red-200 mt-10">HTML CSS JS</p>
                   <p className="text-white para mt-5">
                     <img
                       src={htmlcssjs}
@@ -164,7 +188,7 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each1 each">
-                  <p className="text-white mt-10">5) SQL</p>
+                  <p className="text-red-200 mt-10">SQL</p>
                   <p className="text-white para mt-5">
                     <img src={sql} alt="SQL" className="skills mt-5" />
                   </p>
@@ -172,7 +196,7 @@ const App = () => {
               </Roll>
               <Roll duration={2000}>
                 <div className="each">
-                  <p className="text-white mt-10">6) NoSQL</p>
+                  <p className="text-red-200 mt-10">NoSQL</p>
                   <p className="text-white para mt-5">
                     <img src={mongoDB} alt="NoSQL" className="skills mt-5" />
                   </p>
@@ -182,7 +206,7 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each each1">
-                  <p className="text-white mt-10">7) Phyton</p>
+                  <p className="text-red-200 mt-10">Phyton</p>
                   <p className="text-white para mt-5">
                     <img src={python} alt="python" className="skills mt-5" />
                   </p>
@@ -190,7 +214,7 @@ const App = () => {
               </Roll>
               <Roll duration={2000}>
                 <div className="each">
-                  <p className="text-white mt-10">8) Blockchain</p>
+                  <p className="text-red-200 mt-10">Blockchain</p>
                   <p className="text-white para mt-5">
                     <img
                       src={blockchain}
@@ -204,7 +228,7 @@ const App = () => {
             <div className="cont2">
               <Roll duration={2000}>
                 <div className="each1 each">
-                  <p className="text-white mt-10">9) C++</p>
+                  <p className="text-red-200 mt-10">C++</p>
                   <p className="text-white para mt-5">
                     <img src={Cplus} alt="C++" className="skills mt-5" />
                   </p>
@@ -212,7 +236,7 @@ const App = () => {
               </Roll>
               <Roll duration={2000}>
                 <div className="each">
-                  <p className="text-white mt-10">10) Java</p>
+                  <p className="text-red-200 mt-10">Java</p>
                   <p className="text-white para mt-5">
                     <img src={java} alt="Java" className="skills mt-5" />
                   </p>
@@ -230,22 +254,34 @@ const App = () => {
               <div>
                 <ul className="flex justify-center justify-between max-w-3xl">
                   <li className="float-left">
-                    <a href="https://github.com/monieshravichandrran" target="_blank">
+                    <a
+                      href="https://github.com/monieshravichandrran"
+                      target="_blank"
+                    >
                       <img className="social" src={github} alt="github" />
                     </a>
                   </li>
                   <li className="float-left">
-                    <a href="www.linkedin.com/in/moniesh" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/moniesh"
+                      target="_blank"
+                    >
                       <img className="social" src={linkedin} alt="linkedin" />
                     </a>
                   </li>
                   <li className="float-left">
-                    <a href="https://www.codechef.com/users/abrahambenjami" target="_blank">
+                    <a
+                      href="https://www.codechef.com/users/abrahambenjami"
+                      target="_blank"
+                    >
                       <img className="social" src={codechef} alt="coddechef" />
                     </a>
                   </li>
                   <li className="float-left" target="_blank">
-                    <a href="https://codeforces.com/profile/bianmaqui" target="_blank">
+                    <a
+                      href="https://codeforces.com/profile/bianmaqui"
+                      target="_blank"
+                    >
                       <img
                         className="social"
                         src={codeforces}
@@ -254,17 +290,12 @@ const App = () => {
                     </a>
                   </li>
                   <li className="float-left">
-                    <a href="" target="_blank">
-                      <img className="social" src={gmail} alt="gmail" />
-                    </a>
-                  </li>
-                  <li className="float-left">
-                    <a href="" target="_blank">
+                    <a href="https://instagram.com/iammoniesh208" target="_blank">
                       <img className="social" src={insta} alt="insta" />
                     </a>
                   </li>
                   <li className="float-left">
-                    <a href="" target="_blank">
+                    <a href="https://twitter.com/monieshravi" target="_blank">
                       <img src={twitter} alt="twitter" className="social" />
                     </a>
                   </li>
@@ -278,6 +309,7 @@ const App = () => {
       <br />
       <br />
       <br />
+      </div>
     </>
   );
 };

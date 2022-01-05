@@ -38,6 +38,12 @@
   .contact{
     font-size: 40px;
   }
+  .bgshade{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    );
+  }
 }
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
@@ -76,6 +82,12 @@
     width: 200px;
     height: 170px;
   }
+  .bgshade{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    );
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -102,5 +114,11 @@
   .social{
     width:50px;
     height:50px;
+  }
+  .bgshade{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    );
   }
 }
